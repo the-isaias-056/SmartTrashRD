@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title> Smart Trash </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- STYLE CSS & FONTS -->
+        <style>
+            * {
+                font-family: 'Abel', sans-serif;
+                padding: 0;
+                margin: 0;
+                box-sizing: border-box;
+            }
+
+            .imgBack {
+                background: url(background.jpeg) no-repeat center;
+                background-size: cover;
+                height: 620px;
+            }
+
+            .myName {
+                padding-top: 180px;
+                text-align: center;
+                font-size: 100px;
+                color: white;
+            }
+
+            .subName {
+                margin: auto;
+                text-align: center;
+                color: gainsboro;
+            }
+
+            body {
+                background-color: whitesmoke;
+            }
+
+            .h1TitleContent {
+                text-align: center;
+            }
+
+            .hrLine {
+                width: 120px;
+                background-color: red; 
+                height: 1px;
+            }
+
+            .pText {
+                font-size: 20px;
+            }
+
+            .imgSkills {
+                padding-top: 25px;
+            }
+
+            footer {
+                height: 250px;
+                background-color: white;
+            }
+
+            .h1TitleFooter {
+                text-align: center;
+                padding-top: 25px;
+            }
+
+            .btnSendMsg {
+                width: 150px;
+            }
+
+            .iconSend {
+                vertical-align: middle;
+                margin-left: 15px;
+            }
+
+            .divMyProjects .uk-card {
+                height: 800px;
+            }
+
+            .divMyProjects .card-footer {
+                border-top: 1px solid lightgrey;
+                padding: 20px;
+            }
+
+            .divMyProjects .card-footer a:hover {
+                color: blue;
+            }
+
+            .divMyProjects .uk-card-body {
+                height: 313px;
+            }
+        </style>
+        <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
+        <script src="https://use.fontawesome.com/d668938cd6.js"></script>
+
+        <!-- SCRIPTS UIKIT -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.39/css/uikit.min.css" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.39/js/uikit.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.39/js/uikit-icons.min.js"></script>
+    </head>
+
+    <body>
+
+        <div class = "imgBack" uk-parallax="bgy:-200">
+            <div class = "uk-container">
+                <h1 class = "myName" uk-parallax="opacity: 1,0; y: -100,0; scale: 1,1; viewport: 0.9;"> Smart Trash RD</h1>
+                <h2 class = "subName" uk-parallax="opacity: 1,0, y: -100,0; scale: 1,1; viewport: 0,9;" style="
+                background-color: green; width: fit-content;
+                border-radius: 20px;
+                padding: 5px;"> La Basura Nunca Fue Tan Util </h2>
+            </div>
+        </div>
+
+        <div class="uk-container principalContent">
+            <div class = "divAboutMe"> <br>
+                <h1 class = "h1TitleContent" > ¿Quienes somos? </h1> <hr class="hrLine uk-align-center"/>
+                <p class = "pText">
+                    Smart Trash es una empresa que se dedica a la recolección de basura mediante una aplicación.
+                    El funcionamiento de la aplicación es simple, mediante la aplicación, las personas pueden enviar una alerta
+                    a las autoridades encargadas de la recolección de basuras para que pasen a recolectar la basura de la persona.
+                </p>
+                <p class = "pText">
+                    De igual forma, el usuario puede colocar que tipo de basura posee dentro de la apliación. Estos tipos pueden ser 
+                    plasticos, vidrios, papel, etc.
+                </p>
+                
+            </div>
+
+            <br/>
+        
+            <div class = "divMyProjects">
+                <h1 class = "h1TitleContent"> Nuestros Servicios </h1> <hr class="hrLine uk-align-center"/>
+
+                <div class="uk-child-width-1-4@m" uk-grid>
+                    <div>
+                        <div class="uk-card uk-card-default">
+                            <div class="uk-card-media-top">
+                                <img class="uk-align-center" src="servicio1.jpeg">
+                            </div>
+                            <div class="uk-card-body">
+                                <h3 class="uk-card-title">Recolección de Plasticos</h3>
+                                <p class="pText"></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="uk-card uk-card-default">
+                            <div class="uk-card-media-top">
+                                <img class="uk-align-center" src="servicio2.jpeg">
+                            </div>
+                            <div class="uk-card-body">
+                                <h3 class="uk-card-title">Recolección de Papeles</h3>
+                                <p class="pText"></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="uk-card uk-card-default">
+                            <div class="uk-card-media-top">
+                                <img class="uk-align-center" src="servicio3.jpeg">
+                            </div>
+                            <div class="uk-card-body">
+                                <h3 class="uk-card-title">Recolección de Vidrios</h3>
+                                <p class="pText"></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="uk-card uk-card-default">
+                            <div class="uk-card-media-top">
+                                <img class="uk-align-center" src="servicio4.jpeg">
+                            </div>
+                            <div class="uk-card-body">
+                                <h3 class="uk-card-title">Venta de Articulos Reciclados</h3>
+                                <p class="pText"></p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        
+        <footer style="margin-top: 50px;">
+            <h1 class="h1TitleFooter uk-align-center"> Contactos </h1> <hr class="hrLine uk-align-center">
+
+            <div class="uk-container">
+                <div class="uk-flex uk-flex-center">
+                    <img style="width: 25px; height: fit-content; margin-top: 19px;" src="gmailIcon.png">
+                    <p style="margin-left:15px; color:black;">smart-trash@gmail.com</p>
+                </div>
+            </div>
+        </footer>
+
+    </body>
+</html>
